@@ -1,0 +1,24 @@
+{
+  "name": "township",
+  "version": "1.0.0",
+  "description": "Attempt to make a small game in the vein of CandyBox or Kittens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudenate3/township.git"
+  },
+  "keywords": [
+    "township",
+    "builder",
+    "game"
+  ],
+  "author": "rudenate3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rudenate3/township/issues"
+  },
+  "homepage": "https://github.com/rudenate3/township#readme"
+}
