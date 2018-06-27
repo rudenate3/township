@@ -4,7 +4,11 @@
   "description": "Attempt to make a small game in the vein of CandyBox or Kittens",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --mode development --output-filename ./dist/main.js --open",
+    "start-prod": "webpack-dev-server --mode production --output-filename ./dist/main.js --open",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "eslint": "eslint src/** --fix"
   },
   "repository": {
     "type": "git",
