@@ -1,0 +1,15 @@
+.btn {
+  background: lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 2px 1px 1px black;
+  cursor: pointer;
+  &:hover {
+    background: lighten(lightgrey, 5%);
+  }
+  &:active {
+    box-shadow: none;
+    background: lighten(lightgrey, 10%);
+  }
+}
