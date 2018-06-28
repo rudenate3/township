@@ -1,0 +1,6 @@
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: 10% 60% 30%;
+  grid-template-rows: 100px 800px 50px;
+}
