@@ -1,6 +1,12 @@
 body {
-  min-height: 100%;
+  margin: 0;
+  padding: 0;
   display: grid;
-  grid-template-columns: 10% 60% 30%;
-  grid-template-rows: 100px 800px 50px;
+  height: 100vw;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 50fr;
+  grid-gap: 1em;
+  .navbar {
+    grid-column: 1/4;
+  }
 }

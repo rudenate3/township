@@ -1,0 +1,9 @@
+.navbar {
+  background-color: $darker-grey;
+  border-bottom: solid black 2px;
+  padding: 30px;
+  .brand {
+    color: white;
+    font-size: 4em;
+  }
+}
