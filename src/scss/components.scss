@@ -1,0 +1,25 @@
+.building-card {
+  background-color: $darker-grey;
+  box-shadow: 0.8em 0.3em 0.1em black;
+  .header {
+    color: $white;
+  }
+  .content {
+    .inner-content {
+      background-color: $darkgrey;
+      height: 3em;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      font-size: 0.8em;
+    }
+  }
+  .workers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+  }
+  .build {
+    .btn {
+      width: 18em;
+    }
+  }
+}
