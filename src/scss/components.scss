@@ -1,9 +1,13 @@
-.building-card {
+.card {
   background-color: $darker-grey;
   box-shadow: 0.8em 0.3em 0.1em black;
   .header {
     color: $white;
   }
+}
+
+.building-card {
+  @extend .card;
   .content {
     .inner-content {
       background-color: $darkgrey;
@@ -22,4 +26,11 @@
       width: 18em;
     }
   }
+}
+
+.storage-card {
+  @extend .card;
+  color: $white;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
