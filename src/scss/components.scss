@@ -29,9 +29,13 @@
   }
 }
 
-.storage-card {
-  @extend .card;
+.info-storage {
   color: $white;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+}
+
+.storage-card {
+  @extend .card;
+  @extend .info-storage;
 }
