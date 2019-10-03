@@ -1,31 +1,31 @@
 {
   "name": "township",
-  "version": "1.0.0",
-  "description": "Township game based on CandyBox and Kittens",
-  "main": "index.js",
-  "author": "Nathan Dunn <nathan.odin@gmail.com>",
-  "license": "MIT",
-  "private": false,
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "jquery": "^3.3.1"
-  },
-  "devDependencies": {
-    "css-loader": "^0.28.9",
-    "eslint": "^4.18.0",
-    "eslint-config-standard": "^11.0.0-beta.0",
-    "eslint-loader": "^1.9.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^6.0.0",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "node-sass": "^4.7.2",
-    "raw-loader": "^0.5.1",
-    "sass-loader": "^6.0.6",
-    "style-loader": "^0.20.2",
-    "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.1"
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0"
   },
   "scripts": {
-    "start": "webpack-dev-server --entry ./index.js --output-filename ./dist/bundle.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
